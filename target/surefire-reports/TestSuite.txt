@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 19.374 s <<< FAILURE! - in TestSuite
+verifyLoginPageTitle(com.MyTests.LoginTest)  Time elapsed: 0.046 s  <<< FAILURE!
+java.lang.AssertionError: expected [HubSpot Login] but found [Checking browser]
+	at com.MyTests.LoginTest.verifyLoginPageTitle(LoginTest.java:16)
+
+verifyLoginPageHeader(com.MyTests.LoginTest)  Time elapsed: 0.116 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.MyTests.LoginTest.verifyLoginPageHeader(LoginTest.java:21)
+
+verifyLoginPageHeader(com.MyTests.LoginTest)  Time elapsed: 0.021 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.MyTests.LoginTest.verifyLoginPageHeader(LoginTest.java:21)
+
+verifyLoginPageTitle(com.MyTests.LoginTest)  Time elapsed: 0.021 s  <<< FAILURE!
+java.lang.AssertionError: expected [HubSpot Login] but found [Checking browser]
+	at com.MyTests.LoginTest.verifyLoginPageTitle(LoginTest.java:16)
+
+tearDown(com.MyTests.LoginTest)  Time elapsed: 2.098 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-N6UABUV3', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190813150448, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 4628, moz:profile: C:\Users\sangi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+
