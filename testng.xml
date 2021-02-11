@@ -9,11 +9,11 @@
         </classes>
     </test>
 
-    <test name="my hub spot ff" parallel="methods" thread-count="5">
+   <!-- <test name="my hub spot ff" parallel="methods" thread-count="5">
         <parameter name="browser" value="ff"/>
         <classes>
             <class name="com.MyTests.LoginTest" />
             <class name="com.MyTests.HomePageTest" />
         </classes>
-    </test>
+    </test>-->
 </suite>
