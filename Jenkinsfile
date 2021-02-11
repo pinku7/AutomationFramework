@@ -9,6 +9,7 @@ pipeline {
         stage('Test') { 
             steps {
                  echo 'Testing the application' 
+                 mvn clean install
             }
         }
         stage('Deploy') { 
